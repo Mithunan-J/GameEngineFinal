@@ -15,7 +15,7 @@ public class ObjectPooling : MonoBehaviour
         {
             GameObject _ghost = Instantiate(objectToPool);
             objectPoolList.Add(_ghost);
-            _ghost.transform.position = new Vector2(Random.Range(-11, -9), Random.Range(-5, 5));
+            _ghost.transform.position = new Vector2(Random.Range(-11, 11), Random.Range(-5, 5));
         }
     }
 
